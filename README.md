@@ -22,19 +22,9 @@ To install the ecrchsDarkTheme Chrome Extension, follow these steps:
 
 Once the ecrchsDarkTheme Chrome extension is installed, it will automatically apply the dark theme whenever you visit the ecrchs website (https://ecrchs.instructure.com/).
 
-## Browser Action
-
-The extension also includes a browser action button, which allows you to access additional features or settings related to the dark theme. Clicking on the extension icon in the Chrome toolbar will display a dropdown or popup with relevant options.
-
-![Browser Action](/images/image.png)
-
 ## Version
 
 Current Version: 1.0
-
-## Feedback and Support
-
-We welcome any feedback or suggestions you may have regarding the ecrchsDarkTheme Chrome extension. If you encounter any issues or need assistance, please feel free to reach out to us at support@ecrchsDarkTheme.com.
 
 ## Credits
 
