@@ -1,0 +1,122 @@
+:root {
+    --background-color: #3b3b3b;
+    --text-color: #ffffff; /* Text color for dark theme */
+    --link-color: #6dbdff; /* Link color for dark theme */
+    --highlighted-color: #4a4444; /* Highlighted (selection) background color */
+    --highlighted-text-color: #000000; /* Highlighted (selection) text color */
+    --border-color: #ffffff
+  }
+
+  html body {
+    background-color: var(--background-color);
+    color: var(--text-color); /* Set text color */
+  }
+  
+  html footer {
+    background-color: var(--background-color);
+    color: var(--text-color); /* Set text color */
+  }
+  
+  .medium.ic-Dashboard-header__layout {
+    background-color: var(--background-color); /* Set background color for the element */
+    color: var(--text-color); /* Set text color for the element */
+    border-bottom: 1px solid #555; /* Add a border at the bottom of the element */
+  }
+
+  /* Additional styles for dark theme */
+  /* Update link colors and other elements to match the dark theme */
+  a {
+    color: var(--link-color); /* Update link color for dark theme */
+  }
+  
+  #context_modules_sortable_container {
+    background-color: var(--background-color); /* Dark background color for the content area */
+  }
+  
+  /* Apply styles to the div elements inside li elements */
+  #context_modules_sortable_container li div {
+    background-color: #2b2b2b; /* Dark background color for the div */
+    color: var(--text-color) !important; /* Set text color for the element */
+  }
+
+  th,
+  td {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  td.fc-state-highlight {
+    background-color: var(--highlighted-color) !important;
+  }
+
+  div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  #edit_planner_note_form_holder,
+  #edit_calendar_event_form_holder {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  div.fOyUs_bGBk.fOyUs_dnJm.fOyUs_tIxX.fOyUs_bvKN.fOyUs_cuDs {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  div.fc.fc-ltr.fc-unthemed {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  div.ui-droppable,
+  div.ui-droppable li{
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  #calendar-list-holder {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  #calendars-context-list li :hover{
+    color: var(--highlighted-text-color) !important;
+  }
+
+  div.fOyUs_bGBk.dCppM_ddES {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV,
+  div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV div,
+  div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV span {
+    background-color: var(--background-color);
+    color: var(--text-color); 
+  }
+
+  div.large.ic-Dashboard-header__layout {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  /* Apply dark theme to the header-bar */
+  div.header-bar {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  div.ic-app-crumbs nav ul{
+    background-color: var(--background-color);
+  }
+
+  div.ic-app-crumbs nav ul a{
+    color: var(--text-color)
+  }
+  
+  div.navigation-tray-container {
+    background-color: var(--background-color);
+    color: var(--text-color)
+  }
