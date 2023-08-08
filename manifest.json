@@ -1,27 +1,35 @@
 {
     "manifest_version": 3,
     "name": "ecrchsDarkTheme",
-	"description": "dark them for ecrchs (el camino real).",
+    "description": "Dark theme for ecrchs (El Camino Real).",
     "version": "1.0",
-
-    "icons": {
-            "16": "/images/image.png",
-            "32": "/images/image.png",
-            "48": "/images/image.png",
-            "64": "/images/image.png",
-            "128": "/images/image.png"
+    "permissions": ["activeTab", "storage", "scripting"],
+    "action": {
+      "default_popup": "/popup/popup.html",
+      "default_icon": {
+        "16": "/images/image.png",
+        "32": "/images/image.png",
+        "48": "/images/image.png",
+        "64": "/images/image.png",
+        "128": "/images/image.png"
+      }
     },
-	
-	"browser_action": {			  			
-			"default_title": "ecrchsDarkTheme",
-			"default_icon":"/images/image.png"
-	},
-
-    "content_scripts" : [
-        {
-            "matches":["https://ecrchs.instructure.com/*"],
-            "css":["/content/darkTheme.css"]
-        }
+    "icons": {
+      "16": "/images/image.png",
+      "32": "/images/image.png",
+      "48": "/images/image.png",
+      "64": "/images/image.png",
+      "128": "/images/image.png"
+    },
+    "background": {
+      "service_worker": "/popup/background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://ecrchs.instructure.com/*"],
+        "js": ["/content/content.js"],
+        "css": ["/content/darkTheme.css"]
+      }
     ]
-    
-}
+  }
+  

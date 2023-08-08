@@ -1,14 +1,21 @@
-# ecrchsDarkTheme Chrome Extension
+# ecrchsThemes Extension
 
-![ecrchsDarkTheme](/images/image.png)
+![ecrchsThemes](/images/image.png)
 
 ## Description
 
-ecrchsDarkTheme is a Chrome extension that provides a dark theme for the ecrchs (El Camino Real Charter High School) website. If you find the default website theme too bright and prefer a more eye-friendly dark mode, this extension is for you!
+The ecrchsThemes Extension offers a customizable color theme for the ecrchs (El Camino Real Charter High School) website. Beyond a simple dark theme, this extension empowers you to tailor the website's appearance according to your preferences.
+
+## Features
+
+- Apply a dark theme to the ecrchs website for enhanced readability in low-light environments.
+- Customize the background color of the website using the provided color picker.
+- Save your chosen background color and have it automatically applied the next time you visit the website.
+- Experience a more comfortable and visually appealing browsing experience.
 
 ## Installation
 
-To install the ecrchsDarkTheme Chrome Extension, follow these steps:
+To install the ecrchsThemes Chrome Extension, follow these simple steps:
 
 1. Download the extension files to your computer.
 2. Open Google Chrome browser.
@@ -16,11 +23,11 @@ To install the ecrchsDarkTheme Chrome Extension, follow these steps:
 4. Toggle on the "Developer mode" switch located at the top right corner of the page.
 5. Click on the "Load unpacked" button.
 6. Select the folder containing the downloaded extension files.
-7. The ecrchsDarkTheme extension will now be added to your Chrome browser.
+7. The ecrchsThemes extension will now be seamlessly integrated into your Chrome browser.
 
 ## Usage
 
-Once the ecrchsDarkTheme Chrome extension is installed, it will automatically apply the dark theme whenever you visit the ecrchs website (https://ecrchs.instructure.com/).
+Once the ecrchsThemes Chrome extension is installed, it automatically applies the chosen color theme whenever you visit the ecrchs website (https://ecrchs.instructure.com/). If you would like to change the default color, you can do so by clicking on the extension and choosing your prefered color with the color picker. Whether you prefer a dark background for better contrast or a custom color to match your style, this extension empowers you to personalize your online experience.
 
 ## Version
 
@@ -33,6 +40,6 @@ Current Version: 1.0
 
 ## License
 
-This Chrome extension is licensed under the MIT License. Please refer to the LICENSE.md file for more information.
+This Chrome extension is distributed under the MIT License. Refer to the LICENSE.md file for comprehensive licensing details.
 
-Enjoy the dark theme experience on the ecrchs website with ecrchsDarkTheme Chrome extension! Happy browsing!
+Elevate your browsing experience on the ecrchs website with the ecrchsThemes Chrome extension. Tailor the website's appearance to suit your preferences and enjoy a personalized, immersive online journey. Happy browsing!

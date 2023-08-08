@@ -1,0 +1,14 @@
+/* popupStyle.css */
+/* round rhe corners */
+body {
+  background-color: #3b3b3b;
+  color: #ffffff;
+  width: 200px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  }
+
+  a {
+    color: cadetblue;
+  }
