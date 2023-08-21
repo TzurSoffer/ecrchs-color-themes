@@ -1,5 +1,6 @@
 :root {
     --background-color: #3b3b3b;
+    --dark-background-color: rgb(49, 49, 49);
     --text-color: #ffffff; /* Text color for dark theme */
     --link-color: #6dbdff; /* Link color for dark theme */
     --highlighted-color: #4a4444; /* Highlighted (selection) background color */
@@ -16,7 +17,18 @@
     background-color: var(--background-color);
     color: var(--text-color); /* Set text color */
   }
+
   
+  div.ig-row {
+    background-color: var(--dark-background-color) !important; /* the table for the assignments */
+    color: var(--text-color) !important;
+  }
+
+  div.ic-notification__content {
+    background-color: var(--background-color) !important; /* the table for the assignments */
+    color: var(--text-color) !important;
+  }
+
   .medium.ic-Dashboard-header__layout {
     background-color: var(--background-color); /* Set background color for the element */
     color: var(--text-color); /* Set text color for the element */
@@ -35,9 +47,63 @@
   
   /* Apply styles to the div elements inside li elements */
   #context_modules_sortable_container li div {
-    background-color: #2b2b2b; /* Dark background color for the div */
+    background-color: var(--dark-background-color); /* Dark background color for the div */
     color: var(--text-color) !important; /* Set text color for the element */
   }
+
+  #ic-Layout-contentMain div p {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  #submission_preview {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  div.discussion-entry-reply-area.reply-box-container.hide-if-collapsed.hide-if-replying {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  div.entry-content {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  div.module-sequence-footer-content {
+    background-color: var(--background-color) !important;
+    color: var(--text-color);
+  }
+
+  div.he-mi-eb.he-Hf-eb {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  div.Kd-nonstream-bucket,
+  div.he-mi-hc.he-Hf-le,
+  div.he-mi-hc.he-Hf-le,
+  div.he-mi-Mf.he-Hf-Mf {
+    background-color: var(--background-color) !important;
+    color: var(--text-color);
+  }
+
+  #app,
+  #content,
+  #ic-Layout-contentWrapper,
+  #not_right_side,
+  #main,
+  #ic-Layout-wrapper {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  #ag-list {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
 
   th,
   td {
