@@ -2,6 +2,7 @@
     --background-color: #3b3b3b;
     --dark-background-color: rgb(49, 49, 49);
     --text-color: #ffffff; /* Text color for dark theme */
+    --dark-text-color: #000000;
     --link-color: #6dbdff; /* Link color for dark theme */
     --highlighted-color: #4a4444; /* Highlighted (selection) background color */
     --highlighted-text-color: #000000; /* Highlighted (selection) text color */
@@ -34,6 +35,21 @@
   /* Update link colors and other elements to match the dark theme */
   a {
     color: var(--link-color); /* Update link color for dark theme */
+  }
+
+  div.ic-notification {
+    color: var(--dark-text-color) !important;
+  }
+
+  div.Day-styles__root.planner-day.planner-today,
+  div.Grouping-styles__root.Grouping-styles__medium.planner-grouping,
+  a.Grouping-styles__hero.Grouping-styles__heroHover,
+  h2.fOyUs_bGBk.blnAQ_bGBk.blnAQ_cVrl.blnAQ_drOs,
+  div.enRcg_bGBk.enRcg_cMDj.enRcg_bdMA.enRcg_eQnG,
+  span.Grouping-styles__title,
+  span.Grouping-styles__title::after {
+    background-color: var(--background-color) !important; /* Set background color for the element */
+    color: var(--text-color) !important; /* Set text color for the element */
   }
   
   #context_modules_sortable_container {
