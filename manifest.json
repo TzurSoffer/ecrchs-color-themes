@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "ecrchs Color Themes",
-    "description": "Custom color theme for ecrchs (El Camino Real).",
+    "name": "ecrchs Canvas Color Themes",
+    "description": "Custom color theme for ecrchs Canvas (El Camino Real).",
     "version": "1.1",
     "permissions": ["activeTab", "storage", "scripting"],
     "action": {
@@ -29,6 +29,12 @@
         "matches": ["https://ecrchs.instructure.com/*", "https://ilearn.laccd.edu/*"],
         "js": ["/content/content.js"],
         "css": ["/content/darkTheme.css"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["/images/image.png"],
+        "matches": ["https://ecrchs.instructure.com/*"]
       }
     ]
   }

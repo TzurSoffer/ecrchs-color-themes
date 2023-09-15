@@ -25,6 +25,16 @@
     color: var(--text-color) !important;
   }
   
+  div.ig-row {
+    background-color: var(--dark-background-color) !important; /* the table for the assignments */
+    color: var(--text-color) !important;
+  }
+
+  div.ic-notification__content {
+    background-color: var(--background-color) !important; /* the table for the assignments */
+    color: var(--text-color) !important;
+  }
+
   .medium.ic-Dashboard-header__layout {
     background-color: var(--background-color); /* Set background color for the element */
     color: var(--text-color); /* Set text color for the element */
@@ -41,6 +51,7 @@
     color: var(--dark-text-color) !important;
   }
 
+  div.Day-styles__root.planner-day,
   div.Day-styles__root.planner-day.planner-today,
   div.Grouping-styles__root.Grouping-styles__medium.planner-grouping,
   a.Grouping-styles__hero.Grouping-styles__heroHover,
@@ -90,6 +101,11 @@
   div.he-mi-eb.he-Hf-eb {
     background-color: var(--background-color) !important;
     color: var(--text-color) !important;
+  }
+
+  div.EmptyDays-styles__nothingPlannedContent {
+    background-color: var(--background-color) !important;
+    color: var(--text-color);
   }
 
   div.Kd-nonstream-bucket,
