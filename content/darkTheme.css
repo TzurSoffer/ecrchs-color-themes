@@ -177,8 +177,15 @@
     color: var(--text-color) !important;
   }
 
+  /* calendar */
   #edit_planner_note_form_holder,
   #edit_calendar_event_form_holder {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  /* calendar popup */
+  #event-details-trap-focus {
     background-color: var(--background-color) !important;
     color: var(--text-color) !important;
   }
