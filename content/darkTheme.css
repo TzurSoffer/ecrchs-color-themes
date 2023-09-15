@@ -108,6 +108,13 @@
     color: var(--text-color);
   }
 
+  /* grades section */
+  table.editable.ic-Table.ic-Table--hover-row.ic-Table--grades-summary-table,
+  div.ui-tabs-panel.ui-widget-content.ui-corner-bottom {
+    background-color: var(--background-color) !important;
+    color: var(--text-color);
+  }
+
   div.Kd-nonstream-bucket,
   div.he-mi-hc.he-Hf-le,
   div.he-mi-hc.he-Hf-le,
