@@ -255,3 +255,41 @@
     background-color: var(--background-color);
     color: var(--text-color)
   }
+
+  div.loaded-content {
+    background-color: var(--background-color);
+    color: var(--text-color)
+  }
+
+  /* Apply dark background and light text to form with specified classes */
+  #submit_quiz_form.all_questions.last_page,
+  #submit_quiz_form.all_questions.last_page .assessing,
+  #submit_quiz_form .question_holder,
+  #submit_quiz_form .display_question {
+    background-color: var(--background-color); /* Dark background color */
+    color: var(--text-color); /* Light text color */
+  }
+
+  /* Ensure input elements also have a dark background and light text */
+  #submit_quiz_form input,
+  #submit_quiz_form textarea,
+  #submit_quiz_form select {
+    background-color: var(--background-color); /* Slightly lighter dark background for input elements */
+    color: var(--text-color); /* Light text color */
+    border: 1px solid #777; /* Border color for better visibility */
+  }
+
+  /* Customize specific elements within the form */
+  #submit_quiz_form .question_name {
+    color: #187cda; /* Highlight question names with a different color */
+  }
+
+  #submit_quiz_form .answer_label {
+    color: #ddd; /* Light gray for answer labels */
+  }
+
+  /* Adjust headers and other text elements if needed */
+  #submit_quiz_form .header,
+  #submit_quiz_form legend {
+    color: #ffcc00; /* Highlight headers and legends with a different color */
+  }
