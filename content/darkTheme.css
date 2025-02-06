@@ -302,9 +302,9 @@ div.loaded-content {
 }
 
 /* Ensure input elements also have a dark background and light text */
-#update_history_form input,
-#update_history_form textarea,
-#update_history_form select {
+#questions input,
+#questions textarea,
+#questions select {
   background-color: var(--background-color) !important; /* Slightly lighter dark background for input elements */
   color: var(--text-color) !important; /* Light text color */
   border: 1px solid #777 !important; /* Border color for better visibility */
@@ -315,16 +315,6 @@ div.loaded-content {
 }
 
 /* Customize specific elements within the form */
-#update_history_form .question_name {
+#questions .question_name {
   color: #187cda !important; /* Highlight question names with a different color */
-}
-
-#update_history_form .answer_label {
-  color: #ddd !important; /* Light gray for answer labels */
-}
-
-/* Adjust headers and other text elements if needed */
-#update_history_form .header,
-#update_history_form legend {
-  color: #ffcc00 !important; /* Highlight headers and legends with a different color */
 }
