@@ -1,295 +1,330 @@
 :root {
-    --background-color: #3b3b3b;
-    --dark-background-color: rgb(49, 49, 49);
-    --text-color: #ffffff; /* Text color for dark theme */
-    --dark-text-color: #000000;
-    --link-color: #6dbdff; /* Link color for dark theme */
-    --highlighted-color: #4a4444; /* Highlighted (selection) background color */
-    --highlighted-text-color: #000000; /* Highlighted (selection) text color */
-    --border-color: #ffffff
-  }
+  --background-color: #3b3b3b;
+  --dark-background-color: rgb(49, 49, 49);
+  --text-color: #ffffff; /* Text color for dark theme */
+  --dark-text-color: #000000;
+  --link-color: #6dbdff; /* Link color for dark theme */
+  --highlighted-color: #4a4444; /* Highlighted (selection) background color */
+  --highlighted-text-color: #000000; /* Highlighted (selection) text color */
+  --border-color: #ffffff
+}
 
-  html body {
-    background-color: var(--background-color);
-    color: var(--text-color); /* Set text color */
-  }
-  
-  html footer {
-    background-color: var(--background-color);
-    color: var(--text-color); /* Set text color */
-  }
+html body {
+  background-color: var(--background-color);
+  color: var(--text-color); /* Set text color */
+}
 
-  
-  div.ig-row {
-    background-color: var(--dark-background-color) !important; /* the table for the assignments */
-    color: var(--text-color) !important;
-  }
-  
-  div.ig-row {
-    background-color: var(--dark-background-color) !important; /* the table for the assignments */
-    color: var(--text-color) !important;
-  }
+html footer {
+  background-color: var(--background-color);
+  color: var(--text-color); /* Set text color */
+}
 
-  div.ic-notification__content {
-    background-color: var(--background-color) !important; /* the table for the assignments */
-    color: var(--text-color) !important;
-  }
 
-  .medium.ic-Dashboard-header__layout {
-    background-color: var(--background-color); /* Set background color for the element */
-    color: var(--text-color); /* Set text color for the element */
-    border-bottom: 1px solid #555; /* Add a border at the bottom of the element */
-  }
+div.ig-row {
+  background-color: var(--dark-background-color) !important; /* the table for the assignments */
+  color: var(--text-color) !important;
+}
 
-  /* Additional styles for dark theme */
-  /* Update link colors and other elements to match the dark theme */
-  a {
-    color: var(--link-color); /* Update link color for dark theme */
-  }
+div.ig-row {
+  background-color: var(--dark-background-color) !important; /* the table for the assignments */
+  color: var(--text-color) !important;
+}
 
-  div.ic-notification {
-    color: var(--dark-text-color) !important;
-  }
+div.ic-notification__content {
+  background-color: var(--background-color) !important; /* the table for the assignments */
+  color: var(--text-color) !important;
+}
 
-  div.Day-styles__root.planner-day,
-  div.Day-styles__root.planner-day.planner-today,
-  div.Grouping-styles__root.Grouping-styles__medium.planner-grouping,
-  a.Grouping-styles__hero.Grouping-styles__heroHover,
-  h2.fOyUs_bGBk.blnAQ_bGBk.blnAQ_cVrl.blnAQ_drOs,
-  div.enRcg_bGBk.enRcg_cMDj.enRcg_bdMA.enRcg_eQnG,
-  span.Grouping-styles__title,
-  span.Grouping-styles__title::after {
-    background-color: var(--background-color) !important; /* Set background color for the element */
-    color: var(--text-color) !important; /* Set text color for the element */
-  }
-  
-  #context_modules_sortable_container {
-    background-color: var(--background-color); /* Dark background color for the content area */
-  }
-  
-  /* Apply styles to the div elements inside li elements */
-  #context_modules_sortable_container li div {
-    background-color: var(--dark-background-color); /* Dark background color for the div */
-    color: var(--text-color) !important; /* Set text color for the element */
-  }
+.medium.ic-Dashboard-header__layout {
+  background-color: var(--background-color); /* Set background color for the element */
+  color: var(--text-color); /* Set text color for the element */
+  border-bottom: 1px solid #555; /* Add a border at the bottom of the element */
+}
 
-  #ic-Layout-contentMain div p {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+/* Additional styles for dark theme */
+/* Update link colors and other elements to match the dark theme */
+a {
+  color: var(--link-color); /* Update link color for dark theme */
+}
 
-  #submission_preview {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+div.ic-notification {
+  color: var(--dark-text-color) !important;
+}
 
-  div.discussion-entry-reply-area.reply-box-container.hide-if-collapsed.hide-if-replying {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+div.Day-styles__root.planner-day,
+div.Day-styles__root.planner-day.planner-today,
+div.Grouping-styles__root.Grouping-styles__medium.planner-grouping,
+a.Grouping-styles__hero.Grouping-styles__heroHover,
+h2.fOyUs_bGBk.blnAQ_bGBk.blnAQ_cVrl.blnAQ_drOs,
+div.enRcg_bGBk.enRcg_cMDj.enRcg_bdMA.enRcg_eQnG,
+span.Grouping-styles__title,
+span.Grouping-styles__title::after {
+  background-color: var(--background-color) !important; /* Set background color for the element */
+  color: var(--text-color) !important; /* Set text color for the element */
+}
 
-  div.entry-content {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+#context_modules_sortable_container {
+  background-color: var(--background-color); /* Dark background color for the content area */
+}
 
-  div.module-sequence-footer-content {
-    background-color: var(--background-color) !important;
-    color: var(--text-color);
-  }
+/* Apply styles to the div elements inside li elements */
+#context_modules_sortable_container li div {
+  background-color: var(--dark-background-color); /* Dark background color for the div */
+  color: var(--text-color) !important; /* Set text color for the element */
+}
 
-  div.he-mi-eb.he-Hf-eb {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+#ic-Layout-contentMain div p {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  div.EmptyDays-styles__nothingPlannedContent {
-    background-color: var(--background-color) !important;
-    color: var(--text-color);
-  }
+#submission_preview {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  /* auto saved content */
-  div.eHzxc_bGBk.eHzxc_bcOZ.eHzxc_ssMr,
-  div.fOyUs_bGBk.fOyUs_UeJS.butxX_bGBk,
-  div.dNoYT_bGBk {
-    background-color: var(--background-color) !important;
-    color: var(--text-color);
-  }
+div.discussion-entry-reply-area.reply-box-container.hide-if-collapsed.hide-if-replying {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  /* text entry */
-  div.content.ui-tabs.ui-widget.ui-widget-content.ui-corner-all {
-    background-color: var(--background-color) !important;
-    color: var(--text-color);
-  }
+div.entry-content {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  /* submit section */
-  #submit_online_upload_form,
-  div.ic-Layout-columns,
-  form.submit_assignment_form.ui-tabs-panel.ui-widget-content.ui-corner-bottom
-  body.is-inside-submission-frame.no-headers.primary-nav-expanded.full-width.context-course_20306.responsive_student_grades_page.webkit.chrome.no-touch {
+div.module-sequence-footer-content {
   background-color: var(--background-color) !important;
   color: var(--text-color);
- }
+}
 
-  /* grades section */
-  table.editable.ic-Table.ic-Table--hover-row.ic-Table--grades-summary-table,
-  div.ui-tabs-panel.ui-widget-content.ui-corner-bottom {
-    background-color: var(--background-color) !important;
-    color: var(--text-color);
-  }
+div.he-mi-eb.he-Hf-eb {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  div.Kd-nonstream-bucket,
-  div.he-mi-hc.he-Hf-le,
-  div.he-mi-hc.he-Hf-le,
-  div.he-mi-Mf.he-Hf-Mf {
-    background-color: var(--background-color) !important;
-    color: var(--text-color);
-  }
+div.EmptyDays-styles__nothingPlannedContent {
+  background-color: var(--background-color) !important;
+  color: var(--text-color);
+}
 
-  #app,
-  #content,
-  #ic-Layout-contentWrapper,
-  #not_right_side,
-  #main,
-  #ic-Layout-wrapper {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+/* auto saved content */
+div.eHzxc_bGBk.eHzxc_bcOZ.eHzxc_ssMr,
+div.fOyUs_bGBk.fOyUs_UeJS.butxX_bGBk,
+div.dNoYT_bGBk {
+  background-color: var(--background-color) !important;
+  color: var(--text-color);
+}
 
-  #ag-list {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+/* text entry */
+div.content.ui-tabs.ui-widget.ui-widget-content.ui-corner-all {
+  background-color: var(--background-color) !important;
+  color: var(--text-color);
+}
+
+/* submit section */
+#submit_online_upload_form,
+div.ic-Layout-columns,
+form.submit_assignment_form.ui-tabs-panel.ui-widget-content.ui-corner-bottom
+body.is-inside-submission-frame.no-headers.primary-nav-expanded.full-width.context-course_20306.responsive_student_grades_page.webkit.chrome.no-touch {
+background-color: var(--background-color) !important;
+color: var(--text-color);
+}
+
+/* grades section */
+table.editable.ic-Table.ic-Table--hover-row.ic-Table--grades-summary-table,
+div.ui-tabs-panel.ui-widget-content.ui-corner-bottom {
+  background-color: var(--background-color) !important;
+  color: var(--text-color);
+}
+
+div.Kd-nonstream-bucket,
+div.he-mi-hc.he-Hf-le,
+div.he-mi-hc.he-Hf-le,
+div.he-mi-Mf.he-Hf-Mf {
+  background-color: var(--background-color) !important;
+  color: var(--text-color);
+}
+
+#app,
+#content,
+#ic-Layout-contentWrapper,
+#not_right_side,
+#main,
+#ic-Layout-wrapper {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+#ag-list {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
 
-  th,
-  td {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+th,
+td {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  td.fc-state-highlight {
-    background-color: var(--highlighted-color) !important;
-  }
+td.fc-state-highlight {
+  background-color: var(--highlighted-color) !important;
+}
 
-  div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  /* calendar */
-  #edit_planner_note_form_holder,
-  #edit_calendar_event_form_holder,
-  div.agenda-container,
-  div.agenda-day,
-  div.agenda-event__container,
-  span.agenda-event__title,
-  i.icon-assignment {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+/* calendar */
+#edit_planner_note_form_holder,
+#edit_calendar_event_form_holder,
+div.agenda-container,
+div.agenda-day,
+div.agenda-event__container,
+span.agenda-event__title,
+i.icon-assignment {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  /* calendar popup */
-  #event-details-trap-focus {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+/* calendar popup */
+#event-details-trap-focus {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  div.fOyUs_bGBk.fOyUs_dnJm.fOyUs_tIxX.fOyUs_bvKN.fOyUs_cuDs {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+div.fOyUs_bGBk.fOyUs_dnJm.fOyUs_tIxX.fOyUs_bvKN.fOyUs_cuDs {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  div.fc.fc-ltr.fc-unthemed {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+div.fc.fc-ltr.fc-unthemed {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  div.ui-droppable,
-  div.ui-droppable li{
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+div.ui-droppable,
+div.ui-droppable li{
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  #calendar-list-holder {
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-  }
+#calendar-list-holder {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
 
-  #calendars-context-list li :hover{
-    color: var(--highlighted-text-color) !important;
-  }
+#calendars-context-list li :hover{
+  color: var(--highlighted-text-color) !important;
+}
 
-  div.fOyUs_bGBk.dCppM_ddES {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
+div.fOyUs_bGBk.dCppM_ddES {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
 
-  div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV,
-  div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV div,
-  div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV span {
-    background-color: var(--background-color);
-    color: var(--text-color); 
-  }
+div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV,
+div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV div,
+div.fOyUs_bGBk.fOyUs_EMjX.dpCPB_caGd.eJkkQ_bEpV span {
+  background-color: var(--background-color);
+  color: var(--text-color); 
+}
 
-  div.large.ic-Dashboard-header__layout {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
+div.large.ic-Dashboard-header__layout {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
 
-  /* Apply dark theme to the header-bar */
-  div.header-bar {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
+/* Apply dark theme to the header-bar */
+div.header-bar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
 
-  div.ic-app-crumbs nav ul{
-    background-color: var(--background-color);
-  }
+div.ic-app-crumbs nav ul{
+  background-color: var(--background-color);
+}
 
-  div.ic-app-crumbs nav ul a{
-    color: var(--text-color)
-  }
-  
-  div.navigation-tray-container {
-    background-color: var(--background-color);
-    color: var(--text-color)
-  }
+div.ic-app-crumbs nav ul a{
+  color: var(--text-color)
+}
 
-  div.loaded-content {
-    background-color: var(--background-color);
-    color: var(--text-color)
-  }
+div.navigation-tray-container {
+  background-color: var(--background-color);
+  color: var(--text-color)
+}
 
-  /* Apply dark background and light text to form with specified classes */
-  #submit_quiz_form.all_questions.last_page,
-  #submit_quiz_form.all_questions.last_page .assessing,
-  #submit_quiz_form .question_holder,
-  #submit_quiz_form .display_question {
-    background-color: var(--background-color); /* Dark background color */
-    color: var(--text-color); /* Light text color */
-  }
+div.loaded-content {
+  background-color: var(--background-color);
+  color: var(--text-color)
+}
 
-  /* Ensure input elements also have a dark background and light text */
-  #submit_quiz_form input,
-  #submit_quiz_form textarea,
-  #submit_quiz_form select {
-    background-color: var(--background-color); /* Slightly lighter dark background for input elements */
-    color: var(--text-color); /* Light text color */
-    border: 1px solid #777; /* Border color for better visibility */
-  }
+/* Apply dark background and light text to form with specified classes */
+#submit_quiz_form.all_questions.last_page,
+#submit_quiz_form.all_questions.last_page .assessing,
+#submit_quiz_form .question_holder,
+#submit_quiz_form .display_question {
+  background-color: var(--background-color) !important; /* Dark background color */
+  color: var(--text-color) !important; /* Light text color */
+}
 
-  /* Customize specific elements within the form */
-  #submit_quiz_form .question_name {
-    color: #187cda; /* Highlight question names with a different color */
-  }
+/* Ensure input elements also have a dark background and light text */
+#submit_quiz_form input,
+#submit_quiz_form textarea,
+#submit_quiz_form select {
+  background-color: var(--background-color); /* Slightly lighter dark background for input elements */
+  color: var(--text-color); /* Light text color */
+  border: 1px solid #777; /* Border color for better visibility */
+}
 
-  #submit_quiz_form .answer_label {
-    color: #ddd; /* Light gray for answer labels */
-  }
+/* Customize specific elements within the form */
+#submit_quiz_form .question_name {
+  color: #187cda; /* Highlight question names with a different color */
+}
 
-  /* Adjust headers and other text elements if needed */
-  #submit_quiz_form .header,
-  #submit_quiz_form legend {
-    color: #ffcc00; /* Highlight headers and legends with a different color */
-  }
+#submit_quiz_form .answer_label {
+  color: #ddd; /* Light gray for answer labels */
+}
+
+/* Adjust headers and other text elements if needed */
+#submit_quiz_form .header,
+#submit_quiz_form legend {
+  color: #ffcc00; /* Highlight headers and legends with a different color */
+}
+
+/* Apply dark background and light text to form with specified classes */
+.quiz-submission,
+.question {
+  background-color: var(--background-color) !important; /* Dark background color */
+  color: var(--text-color) !important; /* Light text color */
+}
+
+/* Ensure input elements also have a dark background and light text */
+#update_history_form input,
+#update_history_form textarea,
+#update_history_form select {
+  background-color: var(--background-color) !important; /* Slightly lighter dark background for input elements */
+  color: var(--text-color) !important; /* Light text color */
+  border: 1px solid #777 !important; /* Border color for better visibility */
+}
+
+.score_value {
+  color: var(--text-color) !important; /* Light text color */
+}
+
+/* Customize specific elements within the form */
+#update_history_form .question_name {
+  color: #187cda !important; /* Highlight question names with a different color */
+}
+
+#update_history_form .answer_label {
+  color: #ddd !important; /* Light gray for answer labels */
+}
+
+/* Adjust headers and other text elements if needed */
+#update_history_form .header,
+#update_history_form legend {
+  color: #ffcc00 !important; /* Highlight headers and legends with a different color */
+}
